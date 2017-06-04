@@ -9,4 +9,12 @@ router.get('/', function (req, res, next) {
     });
 });
 
+router.get('/map', function (req, res) {
+    res.render('map',{
+        title: Map,
+        User: req.user,
+        API_KEY: process.env.GOOGLE_MAP_API_KEY
+    })
+});
+
 module.exports = router;
