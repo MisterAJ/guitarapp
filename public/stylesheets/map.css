@@ -1,8 +1,10 @@
 #map {
-    height: 100%;
+    height: 500px;
+    width: 100%;
 }
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+
+.map-container {
+    min-height: 500px;
+    min-width: 250px;
+    margin: 50px auto auto;
 }
