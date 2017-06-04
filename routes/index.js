@@ -17,4 +17,11 @@ router.get('/map', function (req, res) {
     })
 });
 
+router.get('/videos', function (req, res) {
+    res.render('videos',{
+        title: Map,
+        User: req.user
+    })
+});
+
 module.exports = router;

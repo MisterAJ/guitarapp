@@ -55,4 +55,9 @@ a {
     text-shadow: 2px 2px 4px #000000;
 }
 
+.youtube {
+    margin: 75px auto auto;
+    min-height: 500px;
+}
+
 
